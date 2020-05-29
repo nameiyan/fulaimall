@@ -1,0 +1,46 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/login/login",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "孚莱商城",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#868686",
+    "selectedColor": "#FF2150",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "iconPath":"/pages/images/home.png",
+      "selectedIconPath":"/pages/images/home1.png",
+      "text": "首页"
+    }, {
+      "pagePath": "pages/login/login",
+      "iconPath":"/pages/images/menu.png",
+      "selectedIconPath":"/pages/images/menu1.png",
+      "text": "分类"
+    },{
+      "pagePath": "pages/login/login",
+      "iconPath":"/pages/images/message.png",
+      "selectedIconPath":"/pages/images/message1.png",
+      "text": "消息"
+    }, {
+      "pagePath": "pages/logs/logs",
+      "iconPath":"/pages/images/cart.png",
+      "selectedIconPath":"/pages/images/cart1.png",
+      "text": "购物车"
+    }, {
+      "pagePath": "pages/logs/logs",
+      "iconPath":"/pages/images/nickname.png",
+      "selectedIconPath":"/pages/images/nickname1.png",
+      "text": "我的"
+    }]
+  },
+  "sitemapLocation": "sitemap.json"
+}

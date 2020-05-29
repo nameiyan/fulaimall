@@ -1,0 +1,96 @@
+/**index.wxss**/
+.page{
+  margin: 0;
+  background: red;
+  width: 750rpx;
+}
+.container{
+  background: salmon ;
+}
+.page__bd{
+  background: sandybrown;
+}
+.weui-icon-clear {
+  top: 18rpx;
+  right: 0;
+  bottom: 0;
+  padding: 0 12px;
+  font-size: 0;
+  }
+.notice{
+  width: 750rpx;
+  /* height: 50rpx; */
+}
+.limitTime{
+  background: #F7F7F7;
+  padding-top: 20rpx;
+  width: 750rpx;
+}
+.time_top{
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+  font-size:30rpx;
+  height: 90rpx;
+  line-height: 90rpx;
+  padding-left: 20rpx;
+}
+.time_top .timefont{
+  color: #FF2150;
+}
+.time_top .time_right{
+  display: flex;
+  justify-content:flex-start ;
+}
+.time_top .time_right_button{
+  font-size:25rpx;
+  background: #fff;
+  border-radius: 10rpx;
+  border: 1px solid #FF597C;
+  color: #FF597C;
+  height: 50rpx;
+  /* width: 180rpx; */
+  line-height: 50rpx;
+  margin-top: 20rpx;
+}
+.time_top .time_right_icon{
+  margin-right: 20rpx;
+}
+.limitTime .van-grid-item__content{
+  height: 250rpx !important;
+}
+.limitTime .van-grid-item__content .van-icon__image{
+  height: 150rpx !important;
+  width: 150rpx !important;
+  margin-left: -100% !important;
+}
+.adr{
+  height: 180rpx;
+  background: #F4F4F4;
+  padding-top: 10rpx;
+}
+.adr image{
+  width: 750rpx;
+  height: 180rpx;
+
+}
+.box_two{
+  width: 750rpx;
+  background: #F4F4F4;
+  padding-top:10rpx;
+}
+.box_two .box_li{
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    border-bottom: 1rpx solid #F4F4F4;
+}
+.box_two .box_li .box_width{
+  width: 49%;
+  background: #fff;
+}
+.box_two .box_li .box_normal{
+  width: 25%;
+  background: #fff;
+  border-left: 1rpx solid #F4F4F4;
+}
